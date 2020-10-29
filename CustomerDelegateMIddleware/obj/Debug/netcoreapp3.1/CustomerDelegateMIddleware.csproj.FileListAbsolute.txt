@@ -1,0 +1,9 @@
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\bin\Debug\netcoreapp3.1\CustomerDelegateMIddleware.deps.json
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\bin\Debug\netcoreapp3.1\CustomerDelegateMIddleware.dll
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\bin\Debug\netcoreapp3.1\CustomerDelegateMIddleware.pdb
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\obj\Debug\netcoreapp3.1\CustomerDelegateMIddleware.csprojAssemblyReference.cache
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\obj\Debug\netcoreapp3.1\CustomerDelegateMIddleware.AssemblyInfoInputs.cache
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\obj\Debug\netcoreapp3.1\CustomerDelegateMIddleware.AssemblyInfo.cs
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\obj\Debug\netcoreapp3.1\CustomerDelegateMIddleware.csproj.CoreCompileInputs.cache
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\obj\Debug\netcoreapp3.1\CustomerDelegateMIddleware.dll
+E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\CustomerDelegateMIddleware\obj\Debug\netcoreapp3.1\CustomerDelegateMIddleware.pdb
