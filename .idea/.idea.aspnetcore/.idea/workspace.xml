@@ -22,7 +22,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c67f6c1-1180-4100-9056-a648c760a05e" name="默认的" comment="remove">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aspnetcore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcore.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +347,7 @@
       <workItem from="1603854902428" duration="3655000" />
       <workItem from="1603873839247" duration="9070000" />
       <workItem from="1603941293353" duration="616000" />
-      <workItem from="1603941941930" duration="8803000" />
+      <workItem from="1603941941930" duration="9392000" />
     </task>
     <task id="LOCAL-00001" summary="remove">
       <created>1603953150383</created>
@@ -354,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603953150383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove">
+      <created>1603953243674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603953243674</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove">
+      <created>1603953282566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603953282566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -406,6 +422,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="867" y="459" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603874003155" />
+    <state x="1137" y="572" width="285" height="324" key="Github.ShareDialog" timestamp="1603953405711">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1137" y="572" width="285" height="324" key="Github.ShareDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603953405711" />
     <state width="2487" height="594" key="GridCell.Tab.0.bottom" timestamp="1603950593198">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -510,6 +530,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1127" y="509" width="830" height="468" key="cloudConfig.SelfSettingsDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603941871666" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1603953784894">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603953784894" />
     <state x="678" y="214" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603941204111">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

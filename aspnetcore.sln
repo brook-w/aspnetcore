@@ -22,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.UrlRedirectAndRewrite", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlRewrite", "UrlRewrite\UrlRewrite.csproj", "{7D680924-0FB0-4D8C-902D-D4DA07D11D0D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.EvnAndConfigFile", "7.EvnAndConfigFile", "{F797D010-9DE2-49E6-8A9E-DEC5FB63DE4F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.EnvAndConfigFile", "7.EnvAndConfigFile", "{F797D010-9DE2-49E6-8A9E-DEC5FB63DE4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@
     <e p="C:\Users\12858\AppData\Roaming\JetBrains\Rider2020.2\javascript\nodejs\14.2.0\core-modules" t="IncludeRecursive" />
     <e p="E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore" t="IncludeFlat">
       <e p="6.UrlRedirectAndRewrite" t="Include" />
-      <e p="7.EvnAndConfigFile" t="Include" />
+      <e p="7.EnvAndConfigFile" t="Include" />
       <e p="aspnetcore.sln" t="IncludeFlat" />
       <e p="CustomerDelegateMIddleware" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
