@@ -21,7 +21,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c67f6c1-1180-4100-9056-a648c760a05e" name="默认的" comment="" />
+    <list default="true" id="5c67f6c1-1180-4100-9056-a648c760a05e" name="默认的" comment="remove">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +49,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/55/b3044e6c/TextReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/2c/92402fc6/MarshalByRefObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/441B1F1D-0007-4533-BF4B-294EFD4F790B/d5/bc82fee8/02000086.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/workspace/CSharp/blogProject/aspnetcore/aspnetcore/FileServerAndRoute/FileController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF23F803-6603-41BB-8074-AD1FFDA9DE78/a3/6ef6cd54/RoutingBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4D853CB-655E-40DD-9699-00D48477D6C9/9d/524abf14/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B59107FF-4E89-4FD5-A263-B9B0E20878B3/09/002c118a/DefaultFilesOptions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -92,6 +95,7 @@
         <option value="$PROJECT_DIR$/UrlRewrite/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/UrlRewrite/Startup.cs" />
         <option value="$PROJECT_DIR$/FileServerAndRoute/FileController.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -108,10 +112,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.3998136" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.5" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="RoslynSettingsId" />
     <property name="settings.editor.splitter.proportion" value="0.21728395" />
   </component>
   <component name="RunAnythingCache">
@@ -340,8 +345,16 @@
       <workItem from="1603854902428" duration="3655000" />
       <workItem from="1603873839247" duration="9070000" />
       <workItem from="1603941293353" duration="616000" />
-      <workItem from="1603941941930" duration="8485000" />
+      <workItem from="1603941941930" duration="8803000" />
     </task>
+    <task id="LOCAL-00001" summary="remove">
+      <created>1603953150383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603953150383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -355,7 +368,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -363,6 +382,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove" />
   </component>
   <component name="WindowStateProjectService">
     <state x="730" y="346" width="1099" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603939405765">
@@ -477,10 +498,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="913" y="333" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603946583387" />
-    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor" timestamp="1603943024562">
+    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor" timestamp="1603953011599">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603943024562" />
+    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603953011599" />
     <state width="623" height="515" key="SwitcherDM" timestamp="1603951312219">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
