@@ -12,6 +12,7 @@ namespace FileServerAndRoute
             var file = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "1.json");
             return new PhysicalFileResult(file, MediaTypeHeaderValue.Parse("application/json;utf-8"));
             
+            
         }
     }
 }
