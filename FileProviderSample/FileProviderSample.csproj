@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="File\嵌入的文件.txt" />
+      <EmbeddedResource Include="File\嵌入的文件.txt" />
+    </ItemGroup>
+
+</Project>
