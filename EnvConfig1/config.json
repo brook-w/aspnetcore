@@ -1,0 +1,7 @@
+﻿{
+  "name": "zhangsan",
+  "address": {
+    "beijing": "longze",
+    "shanghai": "putuo"
+  }
+}

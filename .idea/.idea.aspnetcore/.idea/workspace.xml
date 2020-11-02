@@ -7,23 +7,91 @@
     <projectFile>PipelineAndMiddleware/PipelineAndMiddleware.csproj</projectFile>
     <projectFile>FileServerAndRoute/FileServerAndRoute.csproj</projectFile>
     <projectFile>UrlRewrite/UrlRewrite.csproj</projectFile>
+    <projectFile>EnvConfig1/EnvConfig1.csproj</projectFile>
+    <projectFile>EnvConfigView/EnvConfigView.csproj</projectFile>
+    <projectFile>UseOptions/UseOptions.csproj</projectFile>
+    <projectFile>ConsoleConfig/ConsoleConfig.csproj</projectFile>
+    <projectFile>LogSample1/LogSample1.csproj</projectFile>
+    <projectFile>React/React.csproj</projectFile>
+    <projectFile>StaticFileAutoCompile/StaticFileAutoCompile.csproj</projectFile>
+    <projectFile>LessSample/LessSample.csproj</projectFile>
+    <projectFile>FileProviderSample/FileProviderSample.csproj</projectFile>
+    <projectFile>WebHost/WebHost.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c67f6c1-1180-4100-9056-a648c760a05e" name="默认的" comment="remove">
+    <list default="true" id="5c67f6c1-1180-4100-9056-a648c760a05e" name="默认的" comment="update">
+      <change afterPath="$PROJECT_DIR$/EnvConfig1/StartupDevelopment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnvConfig1/StartupStaging.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnvConfig1/appsettings.Productio.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EnvConfig1/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileProviderSample/Controllers/FileController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileProviderSample/File/嵌入的文件.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LessSample/Style/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseOptions/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebHost/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.aspnetcore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/Debug/netcoreapp3.1/CustomerDelegateMIddleware.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CustomerDelegateMIddleware/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/bin/Debug/netcoreapp3.1/FileServerAndRoute.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/bin/Debug/netcoreapp3.1/FileServerAndRoute.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/bin/Debug/netcoreapp3.1/FileServerAndRoute.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/bin/Debug/netcoreapp3.1/FileServerAndRoute.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/bin/Debug/netcoreapp3.1/FileServerAndRoute.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/bin/Debug/netcoreapp3.1/FileServerAndRoute.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/obj/Debug/netcoreapp3.1/FileServerAndRoute.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileServerAndRoute/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FileServerAndRoute/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/CustomerDelegateMIddleware.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/PipelineAndMiddleware.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/PipelineAndMiddleware.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/PipelineAndMiddleware.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/PipelineAndMiddleware.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/PipelineAndMiddleware.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/bin/Debug/netcoreapp3.1/PipelineAndMiddleware.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/obj/Debug/netcoreapp3.1/PipelineAndMiddleware.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PipelineAndMiddleware/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PipelineAndMiddleware/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/bin/Debug/netcoreapp3.1/SampleMvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.RazorTargetAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/Debug/netcoreapp3.1/SampleMvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleMvc/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SampleMvc/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/bin/Debug/netcoreapp3.1/UrlRewrite.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/bin/Debug/netcoreapp3.1/UrlRewrite.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/bin/Debug/netcoreapp3.1/UrlRewrite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/bin/Debug/netcoreapp3.1/UrlRewrite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/bin/Debug/netcoreapp3.1/UrlRewrite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/bin/Debug/netcoreapp3.1/UrlRewrite.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/obj/Debug/netcoreapp3.1/UrlRewrite.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrlRewrite/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/UrlRewrite/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/bin/Debug/netcoreapp3.1/WebApiSample.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/bin/Debug/netcoreapp3.1/WebApiSample.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/bin/Debug/netcoreapp3.1/WebApiSample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/bin/Debug/netcoreapp3.1/WebApiSample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/bin/Debug/netcoreapp3.1/WebApiSample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/bin/Debug/netcoreapp3.1/WebApiSample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/obj/Debug/netcoreapp3.1/WebApiSample.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApiSample/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApiSample/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aspnetcore.sln" beforeDir="false" afterPath="$PROJECT_DIR$/aspnetcore.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,41 +111,36 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4D853CB-655E-40DD-9699-00D48477D6C9/0f/1fc29c67/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CDB7007-D80B-4F47-829B-B8E2035A00E1/5e/a19b59af/HeaderNames.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24BADF49-7F9E-4E98-A38F-80BE5CB7E899/ba/15b3a3d8/MediaTypeNames.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/441B1F1D-0007-4533-BF4B-294EFD4F790B/62/748d32dd/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A4AE6E96-90BC-4C47-9987-B8800A0F0DA9/eb/9fcf4d06/ApacheModRewriteOptionsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/441B1F1D-0007-4533-BF4B-294EFD4F790B/76/1433ab26/ControllerActionEndpointDataSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A36215A9-C371-4A36-9788-99D8DB628053/de/32554482/FileConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/55/b3044e6c/TextReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6663515-F1EC-4E78-BFF8-DF11F22F7BBE/04/b6d320be/Host.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/2c/92402fc6/MarshalByRefObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/441B1F1D-0007-4533-BF4B-294EFD4F790B/d5/bc82fee8/02000086.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/workspace/CSharp/blogProject/aspnetcore/aspnetcore/FileServerAndRoute/FileController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E5B223C-BF4E-4442-A940-CF6892B39FC9/86/dd4cae70/HostEnvironmentEnvExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF23F803-6603-41BB-8074-AD1FFDA9DE78/a3/6ef6cd54/RoutingBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4D853CB-655E-40DD-9699-00D48477D6C9/9d/524abf14/IServiceCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B59107FF-4E89-4FD5-A263-B9B0E20878B3/09/002c118a/DefaultFilesOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E5B223C-BF4E-4442-A940-CF6892B39FC9/b3/c164ebb4/IHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/74/159bdd30/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/a8/4b18f596/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/104ABAEC-530E-4E19-A733-4205E24124DA/5b/0c5458fd/DeveloperExceptionPageExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B59107FF-4E89-4FD5-A263-B9B0E20878B3/c4/63523053/StaticFileExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0CDB7007-D80B-4F47-829B-B8E2035A00E1/5e/a19b59af/HeaderNames.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24BADF49-7F9E-4E98-A38F-80BE5CB7E899/ba/15b3a3d8/MediaTypeNames.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8A4B78ED-3B89-4C72-B66D-DAF34D43E906/b9/0e6c6ddd/LoggingBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/441B1F1D-0007-4533-BF4B-294EFD4F790B/62/748d32dd/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8A4B78ED-3B89-4C72-B66D-DAF34D43E906/e1/1f1f4d12/LoggingBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F961B6F-25C7-497B-A70D-959983F640C7/f6/831a228c/IFileInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F961B6F-25C7-497B-A70D-959983F640C7/88/7ed0e968/IFileProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F961B6F-25C7-497B-A70D-959983F640C7/43/400e116d/IDirectoryContents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/441B1F1D-0007-4533-BF4B-294EFD4F790B/76/1433ab26/ControllerActionEndpointDataSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A17E1E26-FEDA-44AE-95FD-68D5ECA36B68/b1/cf495158/ConsoleLoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/441B1F1D-0007-4533-BF4B-294EFD4F790B/d5/bc82fee8/02000086.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B59107FF-4E89-4FD5-A263-B9B0E20878B3/09/002c118a/DefaultFilesOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9C37662-579A-499A-A4DE-B3C85349280D/a8/4b18f596/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6783F137-1409-4FF2-B939-C717A51BB483/8c/781c1c66/Options.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SampleMvc/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/SampleMvc/Models/ErrorViewModel.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Data/DbContext.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Data/MyDbContext.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Models/TodoItem.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Data/TodoContext.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Controllers/WeatherForecastController.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Program.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/WebApiSample/Controllers/TodoController.cs" />
-        <option value="$PROJECT_DIR$/WebApiSample/Startup.cs" />
-        <option value="$PROJECT_DIR$/PipelineAndMiddleware/Middleware/MyMiddleware.cs" />
-        <option value="$PROJECT_DIR$/PipelineAndMiddleware/Middleware/RequestSetOptionsMiddleware.cs" />
-        <option value="$PROJECT_DIR$/PipelineAndMiddleware/Middleware/RequestSetOptionsExtension.cs" />
-        <option value="$PROJECT_DIR$/PipelineAndMiddleware/RequestSetOptionsStartup.cs" />
         <option value="$PROJECT_DIR$/PipelineAndMiddleware/Service/IService.cs" />
         <option value="$PROJECT_DIR$/PipelineAndMiddleware/Service/Service.cs" />
         <option value="$PROJECT_DIR$/PipelineAndMiddleware/Properties/launchSettings.json" />
@@ -98,6 +161,37 @@
         <option value="$PROJECT_DIR$/UrlRewrite/Startup.cs" />
         <option value="$PROJECT_DIR$/FileServerAndRoute/FileController.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/EnvConfig1/Startup - Copy.cs" />
+        <option value="$PROJECT_DIR$/EnvConfig1/StartupDevelopment - Copy.cs" />
+        <option value="$PROJECT_DIR$/EnvConfig1/StartupStaging.cs" />
+        <option value="$PROJECT_DIR$/EnvConfig1/StartupDevelopment.cs" />
+        <option value="$PROJECT_DIR$/EnvConfig1/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/EnvConfig1/appsettings.Productio.json" />
+        <option value="$PROJECT_DIR$/EnvConfigView/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/EnvConfigView/Startup.cs" />
+        <option value="$PROJECT_DIR$/EnvConfig1/appsettings.json" />
+        <option value="$PROJECT_DIR$/EnvConfig1/Startup.cs" />
+        <option value="$PROJECT_DIR$/EnvConfig1/config.json" />
+        <option value="$PROJECT_DIR$/EnvConfig1/Program.cs" />
+        <option value="$PROJECT_DIR$/UseOptions/appsettings.json" />
+        <option value="$PROJECT_DIR$/UseOptions/Logging.cs" />
+        <option value="$PROJECT_DIR$/UseOptions/LogLevel.cs" />
+        <option value="$PROJECT_DIR$/UseOptions/Startup.cs" />
+        <option value="$PROJECT_DIR$/UseOptions/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/UseOptions/config.json" />
+        <option value="$PROJECT_DIR$/UseOptions/Program.cs" />
+        <option value="$PROJECT_DIR$/ConsoleConfig/ConsoleConfig.csproj" />
+        <option value="$PROJECT_DIR$/ConsoleConfig/Program.cs" />
+        <option value="$PROJECT_DIR$/LogSample1/Program.cs" />
+        <option value="$PROJECT_DIR$/StaticFileAutoCompile/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/StaticFileAutoCompile/Style/main.less" />
+        <option value="$PROJECT_DIR$/LessSample/Style/main.less" />
+        <option value="$PROJECT_DIR$/FileProviderSample/File/嵌入的文件.txt" />
+        <option value="$PROJECT_DIR$/FileProviderSample/Controllers/FileController.cs" />
+        <option value="$PROJECT_DIR$/FileProviderSample/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebHost/Readme.md" />
+        <option value="$PROJECT_DIR$/WebHost/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebHost/Program.cs" />
       </list>
     </option>
   </component>
@@ -109,8 +203,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.4381885" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2998776" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.4380065" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29983792" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="XThreadsFramesViewSplitterKey" value="0.3998136" />
@@ -118,7 +212,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.5" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="RoslynSettingsId" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="settings.editor.splitter.proportion" value="0.21728395" />
   </component>
   <component name="RunAnythingCache">
@@ -126,7 +220,25 @@
       <command value="power" />
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.UrlRewrite">
+  <component name="RunManager" selected=".NET Launch Settings Profile.UseOptions">
+    <configuration name="ConsoleConfig" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ConsoleConfig/ConsoleConfig.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="FileServerAndRoute" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -141,6 +253,114 @@
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LogSample1" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LogSample1/LogSample1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EnvConfig1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EnvConfig1/EnvConfig1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="EnvConfig1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EnvConfig1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EnvConfig1/EnvConfig1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EnvConfigView" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EnvConfigView/EnvConfigView.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="EnvConfigView" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="EnvConfigView: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EnvConfigView/EnvConfigView.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="FileProviderSample" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FileProviderSample/FileProviderSample.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="FileProviderSample" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="FileProviderSample: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FileProviderSample/FileProviderSample.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -162,6 +382,36 @@
     </configuration>
     <configuration name="FileServerAndRoute: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FileServerAndRoute/FileServerAndRoute.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LessSample" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/LessSample/LessSample.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="LessSample" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="LessSample: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/LessSample/LessSample.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -205,6 +455,66 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="React" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/React/React.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="React" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="React: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/React/React.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="StaticFileAutoCompile" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/StaticFileAutoCompile/StaticFileAutoCompile.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="StaticFileAutoCompile" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="StaticFileAutoCompile: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/StaticFileAutoCompile/StaticFileAutoCompile.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="UrlRewrite" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/UrlRewrite/UrlRewrite.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -222,6 +532,36 @@
     </configuration>
     <configuration name="UrlRewrite: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/UrlRewrite/UrlRewrite.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="UseOptions" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/UseOptions/UseOptions.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="UseOptions" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="UseOptions: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/UseOptions/UseOptions.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -325,6 +665,36 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="WebHost" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebHost/WebHost.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebHost" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="WebHost: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebHost/WebHost.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue=".NET Project.FileServerAndRoute" />
@@ -347,7 +717,9 @@
       <workItem from="1603854902428" duration="3655000" />
       <workItem from="1603873839247" duration="9070000" />
       <workItem from="1603941293353" duration="616000" />
-      <workItem from="1603941941930" duration="9392000" />
+      <workItem from="1603941941930" duration="10701000" />
+      <workItem from="1604023539739" duration="11065000" />
+      <workItem from="1604308881945" duration="3146000" />
     </task>
     <task id="LOCAL-00001" summary="remove">
       <created>1603953150383</created>
@@ -370,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603953282566</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1603953836114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603953836114</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -395,21 +774,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="remove" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1112" y="489" key="#File_Watchers" timestamp="1604309317788">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1112" y="489" key="#File_Watchers/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604309317788" />
     <state x="730" y="346" width="1099" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603939405765">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="730" y="346" width="1099" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603939405765" />
-    <state x="997" y="365" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603874002679">
+    <state x="997" y="365" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604309256515">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="997" y="365" key="#com.intellij.ide.macro.MacrosDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603874002679" />
+    <state x="997" y="365" key="#com.intellij.ide.macro.MacrosDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604309256515" />
     <state x="1021" y="524" key="#com.intellij.tools.ToolEditorDialog" timestamp="1603874009070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -418,114 +803,118 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="986" y="526" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603856451326" />
-    <state x="867" y="459" key="EditFileWatcherDialog" timestamp="1603874003155">
+    <state x="867" y="459" width="807" height="775" key="EditFileWatcherDialog" timestamp="1604309316261">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="867" y="459" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603874003155" />
+    <state x="867" y="459" width="807" height="775" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604309316261" />
     <state x="1137" y="572" width="285" height="324" key="Github.ShareDialog" timestamp="1603953405711">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1137" y="572" width="285" height="324" key="Github.ShareDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603953405711" />
-    <state width="2487" height="594" key="GridCell.Tab.0.bottom" timestamp="1603950593198">
+    <state width="2507" height="473" key="GridCell.Tab.0.bottom" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593198" />
-    <state width="2487" height="594" key="GridCell.Tab.0.center" timestamp="1603950593198">
+    <state width="2507" height="473" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.0.center" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593198" />
-    <state width="2487" height="594" key="GridCell.Tab.0.left" timestamp="1603950593198">
+    <state width="2507" height="473" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.0.left" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593198" />
-    <state width="2487" height="594" key="GridCell.Tab.0.right" timestamp="1603950593198">
+    <state width="2507" height="473" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.0.right" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593198" />
-    <state width="2487" height="594" key="GridCell.Tab.1.bottom" timestamp="1603950593199">
+    <state width="2507" height="473" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.1.bottom" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.1.center" timestamp="1603950593199">
+    <state width="2507" height="473" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.1.center" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.1.left" timestamp="1603950593198">
+    <state width="2507" height="473" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.1.left" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593198" />
-    <state width="2487" height="594" key="GridCell.Tab.1.right" timestamp="1603950593199">
+    <state width="2507" height="473" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="473" key="GridCell.Tab.1.right" timestamp="1604035248468">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.2.bottom" timestamp="1603950593199">
+    <state width="2507" height="473" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604035248468" />
+    <state width="2507" height="593" key="GridCell.Tab.2.bottom" timestamp="1604030027217">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.2.center" timestamp="1603950593199">
+    <state width="2507" height="593" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604030027217" />
+    <state width="2507" height="593" key="GridCell.Tab.2.center" timestamp="1604030027217">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.2.left" timestamp="1603950593199">
+    <state width="2507" height="593" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604030027217" />
+    <state width="2507" height="593" key="GridCell.Tab.2.left" timestamp="1604030027217">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.2.right" timestamp="1603950593199">
+    <state width="2507" height="593" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604030027217" />
+    <state width="2507" height="593" key="GridCell.Tab.2.right" timestamp="1604030027217">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.3.bottom" timestamp="1603950593199">
+    <state width="2507" height="593" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604030027217" />
+    <state width="2507" height="507" key="GridCell.Tab.3.bottom" timestamp="1604024176700">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.3.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.3.center" timestamp="1603950593199">
+    <state width="2507" height="507" key="GridCell.Tab.3.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024176700" />
+    <state width="2507" height="507" key="GridCell.Tab.3.center" timestamp="1604024176700">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.3.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.3.left" timestamp="1603950593199">
+    <state width="2507" height="507" key="GridCell.Tab.3.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024176700" />
+    <state width="2507" height="507" key="GridCell.Tab.3.left" timestamp="1604024176700">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.3.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.3.right" timestamp="1603950593199">
+    <state width="2507" height="507" key="GridCell.Tab.3.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024176700" />
+    <state width="2507" height="507" key="GridCell.Tab.3.right" timestamp="1604024176700">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.3.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.4.bottom" timestamp="1603950593199">
+    <state width="2507" height="507" key="GridCell.Tab.3.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024176700" />
+    <state width="2507" height="451" key="GridCell.Tab.4.bottom" timestamp="1604024131596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.4.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.4.center" timestamp="1603950593199">
+    <state width="2507" height="451" key="GridCell.Tab.4.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024131596" />
+    <state width="2507" height="451" key="GridCell.Tab.4.center" timestamp="1604024131596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.4.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.4.left" timestamp="1603950593199">
+    <state width="2507" height="451" key="GridCell.Tab.4.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024131596" />
+    <state width="2507" height="451" key="GridCell.Tab.4.left" timestamp="1604024131596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.4.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
-    <state width="2487" height="594" key="GridCell.Tab.4.right" timestamp="1603950593199">
+    <state width="2507" height="451" key="GridCell.Tab.4.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024131596" />
+    <state width="2507" height="451" key="GridCell.Tab.4.right" timestamp="1604024131596">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2487" height="594" key="GridCell.Tab.4.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603950593199" />
+    <state width="2507" height="451" key="GridCell.Tab.4.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024131596" />
     <state x="834" y="415" key="LayersDialog" timestamp="1603941863405">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="834" y="415" key="LayersDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603941863405" />
-    <state x="592" y="326" key="Rider.ProjectTemplateDialog.Size" timestamp="1603948704535">
+    <state x="592" y="326" key="Rider.ProjectTemplateDialog.Size" timestamp="1604310964511">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="592" y="326" key="Rider.ProjectTemplateDialog.Size/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603948704535" />
-    <state x="913" y="333" key="RiderGenerateDialog" timestamp="1603946583387">
+    <state x="592" y="326" key="Rider.ProjectTemplateDialog.Size/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604310964511" />
+    <state x="913" y="333" key="RiderGenerateDialog" timestamp="1604309734630">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="913" y="333" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603946583387" />
-    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor" timestamp="1603953011599">
+    <state x="913" y="333" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604309734630" />
+    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor" timestamp="1604309218926">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603953011599" />
+    <state x="655" y="121" width="1232" height="1052" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604309218926" />
     <state width="623" height="515" key="SwitcherDM" timestamp="1603951312219">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="623" height="515" key="SwitcherDM/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603951312219" />
+    <state width="1288" height="708" key="XDebugger.FullValuePopup" timestamp="1604024107593">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1288" height="708" key="XDebugger.FullValuePopup/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1604024107593" />
     <state x="1127" y="509" width="830" height="468" key="cloudConfig.SelfSettingsDialog" timestamp="1603941871666">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -558,5 +947,60 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1603951324094" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EnvConfig1/StartupStaging.cs</url>
+          <line>23</line>
+          <properties documentPath="E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\EnvConfig1\StartupStaging.cs" initialLine="23">
+            <startOffsets>
+              <option value="869" />
+            </startOffsets>
+            <endOffsets>
+              <option value="895" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EnvConfig1/StartupDevelopment.cs</url>
+          <line>23</line>
+          <properties documentPath="E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\EnvConfig1\StartupDevelopment.cs" initialLine="23">
+            <startOffsets>
+              <option value="873" />
+            </startOffsets>
+            <endOffsets>
+              <option value="899" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EnvConfig1/Startup.cs</url>
+          <line>31</line>
+          <properties documentPath="E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\EnvConfig1\Startup.cs" initialLine="30">
+            <startOffsets>
+              <option value="1056" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1057" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#EnvConfig1.Startup.Configure" memberName="env" />
+        <PinnedItemInfo parentTag="Type#Microsoft.AspNetCore.Builder.ApplicationBuilder" memberName="Properties" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

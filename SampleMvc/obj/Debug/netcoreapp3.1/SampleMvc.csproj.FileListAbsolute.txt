@@ -9,7 +9,6 @@ E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\bin\Debug\netcor
 E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\bin\Debug\netcoreapp3.1\SampleMvc.pdb
 E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\bin\Debug\netcoreapp3.1\SampleMvc.Views.dll
 E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\bin\Debug\netcoreapp3.1\SampleMvc.Views.pdb
-E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\obj\Debug\netcoreapp3.1\SampleMvc.csprojAssemblyReference.cache
 E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\obj\Debug\netcoreapp3.1\SampleMvc.AssemblyInfoInputs.cache
 E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\obj\Debug\netcoreapp3.1\SampleMvc.AssemblyInfo.cs
 E:\workspace\CSharp\blogProject\aspnetcore\aspnetcore\SampleMvc\obj\Debug\netcoreapp3.1\SampleMvc.csproj.CoreCompileInputs.cache
